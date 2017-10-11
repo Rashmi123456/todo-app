@@ -5,5 +5,10 @@
   <%= @todo.task %>
 </p>
 
+<p>
+  <strong>Status:</strong>
+  <%= @todo.status %>
+</p>
+
 <%= link_to 'Edit', edit_todo_path(@todo) %> |
 <%= link_to 'Back', todos_path %>

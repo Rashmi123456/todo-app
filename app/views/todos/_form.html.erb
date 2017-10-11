@@ -15,6 +15,10 @@
     <%= f.label :task %>
     <%= f.text_field :task %>
   </div>
+  <div class="field">
+    <%= f.label :status %>
+    <%= f.select :status, [['Progress','progress'],['Completed','completed']] %>
+  </div>
 
   <div class="actions">
     <%= f.submit %>
